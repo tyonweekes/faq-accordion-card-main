@@ -1,0 +1,65 @@
+// Reset
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// Variables
+
+// Typography
+
+// Body Copy
+$paragraph: 12px;
+
+// Colors
+
+// Primary
+
+// Text
+
+$very-dark-desaturated-blue: hsl(238, 29%, 16%);
+$soft-red: hsl(14, 88%, 65%);
+
+// Gradient
+
+// Background gradient:
+
+$soft-violet: hsl(273, 75%, 66%);
+$soft-blue: hsl(240, 73%, 65%);
+
+// Neutral
+
+// Text
+
+$very-dark-greyish-blue: hsl(237, 12%, 33%);
+$dark-greyish-blue: hsl(240, 6%, 50%);
+
+// Dividers
+
+$light-greyish-blue: hsl(240, 5%, 91%);
+
+// General
+body {
+    background-image: linear-gradient($soft-violet, $soft-blue);
+}
+
+.main-container {
+    background-color: white;
+}
+
+h1 {
+   font-family: 'Kumbh Sans', sans-serif;
+   font-weight: 700;
+   padding-bottom: 20px;
+}
+
+// Attribution
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
