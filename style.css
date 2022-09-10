@@ -61,6 +61,17 @@ p {
   font-size: 12px;
 }
 
+/* Questions */
+.question {
+  display: inline-block;
+}
+
+.down-arrow {
+  display: inline-block;
+}
+
+/* Attribution */
+
 .attribution {
   font-size: 11px;
   text-align: center;
