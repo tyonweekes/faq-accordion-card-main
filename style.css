@@ -32,12 +32,30 @@ body {
   background-color: white;
   border-radius: 25px;
   display: flex;
+  padding: 40px;
 }
 
 /* Images */
-#img-bg {
-  width: 50%;
+/* #img-bg {
+  position: relative;
+  top: -360px;
+  left: -100px;
+  z-index: 0;
 }
+
+#woman-at-desk {
+  position: relative;
+  top: -950px;
+  left: 399px;
+  z-index: 1;
+}
+
+#office-box {
+  position: relative;
+  top: -990px;
+  left: -90px;
+  z-index: 2;
+} */
 
 /* Typography */
 h1 {
@@ -45,6 +63,7 @@ h1 {
   font-weight: 700;
   padding-bottom: 40px;
   color: var(--very-dark-desaturated-blue);
+  font-size: 32px;
 }
 
 h2 {
@@ -52,6 +71,12 @@ h2 {
   font-weight: 400;
   color: var(--dark-greyish-blue);
   font-size: 14px;
+  display: block;
+  cursor: pointer;
+}
+
+h2:hover {
+  color: var(--soft-red);
 }
 
 p {
@@ -61,17 +86,33 @@ p {
   font-size: 12px;
 }
 
+.answer {
+  display: none;
+}
+
+.down-arrow {
+  display: inline;
+}
+
 /* Questions */
+.questions {
+  position: relative;
+  width: 330px;
+}
+
 .question {
-  display: inline-block;
+  display: block;
 }
 
 .down-arrow {
   display: inline-block;
 }
 
-/* Attribution */
+.show-text .answer {
+  display: block;
+}
 
+/* Attribution */
 .attribution {
   font-size: 11px;
   text-align: center;
